@@ -1,0 +1,26 @@
+{
+  "name": "online-house-renting-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for Online House Renting System",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server web -p 8080 -o",
+    "build": "echo 'Frontend build completed'",
+    "dev": "http-server web -p 8080 -o --cors"
+  },
+  "keywords": [
+    "house-renting",
+    "frontend",
+    "jsp",
+    "bootstrap"
+  ],
+  "author": "Online House Renting System Team",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.2",
+    "jquery": "^3.6.0"
+  }
+}
